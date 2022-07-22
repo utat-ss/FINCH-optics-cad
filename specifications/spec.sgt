@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecList Version="3">
+  <Spec Type="fieldOfView">
+    <Enabled>true</Enabled>
+    <Label/>
+    <Notes/>
+    <Goal Type="double" Mode="between">
+      <Target>3.2330000000000001</Target>
+      <TargetMax>3.4329999999999998</TargetMax>
+    </Goal>
+    <Aggregation>individual</Aggregation>
+    <Zoom>ZA</Zoom>
+    <Direction>Y</Direction>
+    <TypeOfView>fullFOV</TypeOfView>
+  </Spec>
+  <Spec Type="spectralRange">
+    <Enabled>true</Enabled>
+    <Label/>
+    <Notes/>
+    <Zoom>ZA</Zoom>
+    <SpectralRangeUnits>nanometers</SpectralRangeUnits>
+    <ShortWavelengthGoal Type="double" Mode="equalsTo">
+      <Target>1500</Target>
+    </ShortWavelengthGoal>
+    <LongWavelengthGoal Type="double" Mode="equalsTo">
+      <Target>3000</Target>
+    </LongWavelengthGoal>
+  </Spec>
+  <Spec Type="overallLength">
+    <Enabled>true</Enabled>
+    <Label/>
+    <Notes/>
+    <Goal Type="double" Mode="lessThan">
+      <Target>15</Target>
+    </Goal>
+    <Aggregation>individual</Aggregation>
+    <Zoom>ZA</Zoom>
+    <OverallLengthUnits>centimeters</OverallLengthUnits>
+  </Spec>
+  <Spec Type="surfaceDiameter">
+    <Enabled>true</Enabled>
+    <Label/>
+    <Notes/>
+    <Goal Type="double" Mode="lessThan">
+      <Target>10</Target>
+    </Goal>
+    <Aggregation>individual</Aggregation>
+    <Zoom>ZA</Zoom>
+    <DiameterUnits>centimeters</DiameterUnits>
+    <OverageScaleFactor>1</OverageScaleFactor>
+    <OverageConstant>0</OverageConstant>
+    <OverageUnits>millimeters</OverageUnits>
+  </Spec>
+</SpecList>
